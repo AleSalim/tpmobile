@@ -1,0 +1,57 @@
+#welcome {
+    padding-bottom: 10px;
+}
+
+#welcome h1 {
+    display: inline-block;
+    width: 75%;
+}
+
+#welcome .addContact {
+    display: inline-block;
+    width: 20%;
+    
+    text-align: center;
+}
+
+#welcome img {
+    display: block;
+    margin: auto;
+}
+
+#welcome .contact {
+    width: 90%;
+    padding-left: 1em;
+    vertical-align: middle;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+#welcome .contact:hover {
+    background-color: #9C1914;
+    transition-duration: 0.3s;
+}
+
+#welcome .contact h2 {
+    display: inline-block;
+    
+    width: 75%;
+}
+
+#welcome .contact a {
+    display: inline-block;
+    
+    width: 10%;
+}
+
+#welcome .call, .mail {
+    display: inline-block;
+    text-align: center;
+    width: 49%;
+    border: 1px solid white;
+}
+
+#welcome .delete {
+    margin-top: 15px;
+    text-align: center;
+}

@@ -1,0 +1,58 @@
+html {
+	font-size: 62.5%;
+	background-image: url('../img/bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+body {
+	font-size: 1.6rem;
+}
+h1 {
+	font-size: 2.5rem;
+}
+
+td {
+	border: 1px solid black;
+}
+
+table {
+	border-collapse: collapse;	
+}
+
+tr th {
+	background-color: gray;
+}
+
+#logo{display:block;background-image:url('../img/logo-iut.jpg');background-size:contain;width:300px;background-repeat:no-repeat;height:150px;margin:auto}
+
+@viewport {
+   width: device-width; /* largeur du viewport */
+   zoom: 1; /* zoom initial à 1.0 (et clin d'oeil aux fans d'IE6/7) */
+}
+
+@media screen and (max-width: 1280px) {
+		body {
+			width: 100%;
+			font-size: auto;
+		}
+		
+		img {
+			width: 70%;
+		}
+		
+		table {
+			border: 1px solid black;
+			width: 70%;
+		}
+		
+		th, td {
+			border: none;
+			width: 100%;
+			display: inline-block;
+			text-align: center;
+		}
+}
+
+@media (min-resolution: 2dppx) { 
+
+}

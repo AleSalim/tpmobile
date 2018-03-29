@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    
+	<title>TP3</title>
+    
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" href="img/favicon.png" />
+    
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/connexion.js"></script>
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/script.js" defer></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA1kj15zWk_ubHEV58HygEzMqXVV-4m4jk&callback=initMap" async defer></script>
+
+</head>
+<body>
+
+	<div id="header">
+        <a href="javascript:hamburger_click();">
+            <div id="burger"></div>
+        </a>
+        
+		<div id="logo"></div>
+		<div id="menu">
+            <ul>
+                <a href="index.html"><li> Accueil</li></a>
+                <a href="#"><li>Titre 1</li></a>
+                <a href="contact.html"><li>Contact</li></a>
+            </ul> 
+            
+            <input type="text" class="search" placeholder="Recherche"></div>
+            <div id="phone"><a href="tel:+01-562-867-5309"><img src="img/phone.png" alt="telephone"/></a></div>
+	</div>
+
+
+
+
+	<div id="contain">
+		<div id="banner"></div>
+
+
+
+		<div id="welcome">
+			<h1>RWBY</h1>
+			<p>RWBY est une web-série d'animation 3D américaine créée en 2013 par Monty Oum pour la compagnie Rooster Teeth. a série se déroule dans le monde fictif de Remnant, où de jeunes gens sont entrainés afin de devenir des Chasseurs ou des Chasseuses destinés à protéger leur monde de créatures sauvages nommées les Grimms. Quelques années avant les événements de la série, un mystérieux élément nommée la Poussière fut découvert et permit aux humains de construire des armes ou de déclencher des pouvoirs efficaces contre les Grimms.</p>
+		</div>
+
+
+
+		<div id="personnage">
+
+			<div class="perso">		
+				<div class="losange"><div class="picture"></div></div>
+    			<h2>Ruby</h2><p>« Red »</p>
+    		</div>
+
+			<div class="perso">
+				<div class="losange"><div class="picture"></div></div>
+				<h2>Weiss</h2><p>« Ice Queen »</p>
+			</div>
+
+			<div class="perso">
+				<div class="losange"><div class="picture"></div></div>
+				<h2>Blake</h2><p>« Kitty »</p>
+			</div>
+
+			<div class="perso">
+				<div class="losange"><div class="picture"></div></div>
+				<h2>Yang</h2><p>« Firecracker »</p>
+			</div>
+		
+		</div>
+
+
+
+		<div id="info">
+			<div id="map"><h2>Une map</h2> 
+				<div class="in">
+						<div id="maps"></div>
+				</div>
+			</div>
+
+			<div id="contact"><h2>Contact</h2>
+				<div class="in">
+                    
+					<form method="POST" action="#">
+						<input type="text" id="prenom" class="prenom" placeholder="Prénom" onchange="sessionStorage.prenom=this.value" />
+						<input type="text" id="nom" class="nom" placeholder="Nom" onchange="sessionStorage.nom=this.value"/>
+						<input type="date" id="naissance" class="naissance" placeholder="Date de naissance" onchange="sessionStorage.naissance=this.value" />
+						<input type="text" id="ville" class="ville" placeholder="Ville de naissance" onchange="sessionStorage.ville=this.value" />
+						<input type="email" id="mail" class="mail" placeholder="Adresse email" onchange="sessionStorage.mail=this.value" />
+						<input type="file" id="photo" class="photo" placeholder="Photo" onchange="sessionStorage.photo=this.value" />
+						<textarea id ="message" class="message" placeholder="Message" onchange="sessionStorage.message=this.value"></textarea>
+						<input type="submit" class="envoyer" placeholder="Envoyer" />
+                        <input type="button" id="clear" class="clear" value="Vider le cache" />
+					</form>
+                    
+				</div>
+			</div>
+		</div>
+        
+	</div>
+
+
+
+	<div id="container">
+		<div id="footer">
+            <div id="logoiut"></div>
+            <p><strong>Alex Salim</strong> | TPB</p>
+        </div>
+	</div>
+
+</body>
+<html>
